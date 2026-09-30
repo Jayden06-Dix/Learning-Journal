@@ -1,0 +1,126 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Nav */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    height: 3.6875em;
+}
+
+.logo {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+}
+
+.logo-img{
+    width: 1.5em;
+}
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 0.875em;
+    line-height: 108%;
+    letter-spacing: -3%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, ul{
+    display: flex;
+    gap: 2em;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-links{
+    width: 3.625em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #090909;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.Hero {
+    width: 100%;
+    background: url(../images/Learning-Journal-Hero.png);
+    height: 20vh;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 2em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.article-date-hero{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    height: 15px;
+    opacity: 1;
+    color: #fff;
+    text-shadow: #090909 0px 0px 1px;
+}
+
+.article-title-hero{
+    width: 100%;
+    opacity: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 2rem;
+    line-height: 108%;
+    letter-spacing: -3%;
+    color: #fff;
+    text-align: left;
+    text-shadow: #090909 0px 0px 1px;
+}
+
+.article-preview-hero{
+    width: 100%;
+    top: 247px;
+    left: 20px;
+    opacity: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1em;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    text-shadow: #090909 0px 0px 1px;
+}
+
+/* Aticle Section */ 
+
+.article-listing{
+    width: 23.375em;
+    top: 386px;
+    left: 20px;
+    opacity: 1;
+    border-radius: 3px;
+}
