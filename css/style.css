@@ -59,35 +59,35 @@ li{
 /* Hero Section */
 
 .Hero {
-    width: 100%;
+    width: 25.875rem;
     background: url(../images/Learning-Journal-Hero.png);
-    height: 20vh;
+    height: 25vh;
     opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 2em;
+    padding: 1em 1em 1em 1em;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
 
 .article-date-hero{
-    display: flex;
+    margin-bottom: -10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 0.75em;
     line-height: 100%;
     letter-spacing: 0%;
-    width: 100%;
-    height: 15px;
+    width: 23.375em;
+    height: 0.938em;
     opacity: 1;
     color: #fff;
     text-shadow: #090909 0px 0px 1px;
 }
 
 .article-title-hero{
-    width: 100%;
+    width: 23.375em;
     opacity: 1;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -101,13 +101,9 @@ li{
 }
 
 .article-preview-hero{
-    width: 100%;
-    top: 247px;
-    left: 20px;
-    opacity: 1;
+    width: 22.5em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-style: Regular;
     font-size: 1em;
     line-height: 100%;
     letter-spacing: 0%;
@@ -116,11 +112,165 @@ li{
 }
 
 /* Aticle Section */ 
+.Site-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 3em;
+}
 
 .article-listing{
-    width: 23.375em;
+    width: 100%;
     top: 386px;
     left: 20px;
     opacity: 1;
     border-radius: 3px;
+    padding: 1em 1em 1em 1em;
+}
+
+.blog{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    width: 23.375em;
+    height: 23em; 
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blog-one-img{
+    width: 100%;
+    height: 14.5em;  
+    border-radius: 3px;
+    background-image: url(../images/Blog-one-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-two-img{
+    width: 100%;
+    height: 14.5em; 
+    border-radius: 3px;
+    background-image: url(../images/Blog-two-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-three-img{
+    width: 100%;
+    height: 14.5em; 
+    border-radius: 3px;
+    background-image: url(../images/Blog-three-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-date{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #000;
+    width: 100%;
+    height: 1.125em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.885em;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.blog-title{
+    color: #141414;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 1.5em;
+    line-height: 108%;
+    letter-spacing: 0%;
+    width: 100%;
+    height: 1.625em; 
+}
+
+.blog-excerpt{
+    width: 100%;
+    height: 3.75em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #505050;
+}
+
+#view-more-btn{
+    width: 23.375em;
+    height: 1.25rem;
+    opacity: 1;
+    top: 1599px;
+    left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #000000;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+/* Footer */ 
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #202020;
+    width: 100%; /* 25.875rem */
+    height: 6.5625rem;
+
+}
+
+.footer-text{
+    margin-top: -3em;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 108%;
+    letter-spacing: -3%;
+    text-align: center;
+    width: 6.8125rem;
+    height: 0.8125rem;
+    color: #ECECEC;
+    align-self: center;
+}
+
+.footer-main{
+    margin-bottom: -0.5em;
+}
+
+#copyright{
+    width: 109px;
+    height: 0.9375em;
+    opacity: 1;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #D7D7D7;
 }
