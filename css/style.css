@@ -92,7 +92,7 @@ li{
 }
 
 .article-title-hero{
-    width: 23.375em;
+    width: 374px; /* 23.375em */
     opacity: 1;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -130,8 +130,6 @@ li{
 .article-listing{
     width: 100%;
     height: auto;
-    top: 386px;
-    left: 20px;
     opacity: 1;
     border-radius: 3px;
     padding-bottom: 2em;
@@ -172,6 +170,36 @@ li{
     height: 14.5em; 
     border-radius: 3px;
     background-image: url(../images/Blog-three-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-four-img{
+    width: 100%;
+    height: 14.5em; 
+    border-radius: 3px;
+    background-image: url(../images/Blog-four-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-five-img{
+    width: 100%;
+    height: 14.5em; 
+    border-radius: 3px;
+    background-image: url(../images/Blog-five-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-six-img{
+    width: 100%;
+    height: 14.5em; 
+    border-radius: 3px;
+    background-image: url(../images/Blog-six-cover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +378,7 @@ h3{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-style: Bold;
-    font-size: 2.1875em;
+    font-size: 35px;
     line-height: 108%;
     letter-spacing: -3%;
     color: #151515;
@@ -367,4 +395,78 @@ h3{
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* Media Queries */ 
+
+@media (min-width: 768px){
+    .Hero{
+        width: 100%;
+        height: 30.5em;
+        background-position: bottom;
+    }
+
+    .article-date-hero{
+        width: 38.4375em;
+    }
+
+    .article-title-hero{
+        width: 41.0625em;
+    }
+
+    .article-preview-hero{
+        width: 615px;
+    }
+
+    .article-listing{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    #view-more-btn{
+        padding-top: 2em;
+    }
+
+    .article-main{
+        width: 979px;
+        border-radius: 3px;
+    }
+
+    .article-img{
+        width: 979px;
+        height: 488px;
+        border-radius: 3px;
+    }
+
+    .blog-title{
+        font-size: 36px;
+    }
+
+    #body-test{
+        margin-top: 3em;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .article-p{
+        font-size: 18px;
+    }
+
+    .about-main{
+        padding-top: 3em;
+    }
+
+    .About-desktop-hero{
+        display: flex;
+        
+    }
+
+    .about-title{
+
+    }
 }
