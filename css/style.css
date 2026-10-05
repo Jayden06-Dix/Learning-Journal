@@ -453,6 +453,10 @@ h3{
         font-size: 24px;
     }
 
+    #recent-posts{
+        margin-top: 35px;
+    }
+
     .article-p{
         font-size: 18px;
     }
@@ -466,7 +470,27 @@ h3{
         
     }
 
-    .about-title{
+    .about-main{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 35px auto;
+    }
 
+    .about-hero{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .about-me-heading{
+        width: 764px;
+    }
+
+    .about-me-journey{
+        width: 911px;
     }
 }
